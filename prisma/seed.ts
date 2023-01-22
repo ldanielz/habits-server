@@ -61,6 +61,8 @@ async function run() {
             { week_day: 3 },
             { week_day: 4 },
             { week_day: 5 },
+            { week_day: 6 },
+            { week_day: 7 },
           ]
         }
       }
@@ -92,7 +94,7 @@ async function run() {
         date: new Date('2023-01-06T03:00:00.000z'),
         dayHabits: {
           create: {
-            habit_id: firstHabitId,
+            habit_id: secondHabitId,
           }
         }
       }
@@ -113,6 +115,7 @@ async function run() {
         }
       }
     }),
+   
   ])
 }
 
